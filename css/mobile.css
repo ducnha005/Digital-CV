@@ -1,0 +1,74 @@
+@media (max-width: 500px) {
+  .nav-img .img-info {
+    left: 23%;
+  }
+  .navbars {
+    display: block;
+    height: auto;
+  }
+  .display {
+    display: block;
+  }
+  .navbars a {
+    display: block;
+  }
+  #background {
+    display: block;
+  }
+  .background-content {
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 35px;
+  }
+  .background-content p {
+    margin: 0;
+  }
+  /* information */
+  #information .information-content {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(6, auto);
+    height: auto;
+  }
+  .content-box {
+    width: 100%;
+  }
+  .content-box .description-content {
+    display: block !important;
+  }
+  .content-box .view {
+    display: none !important;
+  }
+  /* certificaton */
+  #certification .certification-content {
+    display: block;
+    width: 300px;
+  }
+  .row-border {
+    display: none;
+  }
+  .certification-content .certification-box-2 {
+    border: none;
+  }
+  .certification-content .content-box-certification {
+    padding-top: 50px;
+    border-top: 1px solid #d6c08d;
+    padding-left: 15px;
+    padding-right: 10px;
+  }
+  .certification-content .content-box-certification:first-child {
+    border: none;
+    padding-top: 0;
+  }
+  #certification img {
+    width: 100%;
+  }
+  /* project */
+  #project .project-content {
+    flex-direction: column;
+  }
+  .project-box {
+    width: 300px;
+  }
+}

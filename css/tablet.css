@@ -1,0 +1,85 @@
+@media (max-width: 768px) {
+  body {
+    font-size: 12px;
+  }
+  .nav-img .img-info {
+    left: 31%;
+  }
+  /* nav bar */
+  .navbars {
+    justify-content: space-evenly;
+  }
+  .nav-home {
+    display: none;
+  }
+  /* information */
+  .information-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 2300px;
+    /* align-items: flex-start; */
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .content-box:nth-child(1) {
+    order: 1;
+  }
+  .content-box:nth-child(2) {
+    order: 5;
+  }
+  .content-box:nth-child(3) {
+    order: 4;
+  }
+  .content-box:nth-child(4) {
+    order: 6;
+  }
+  .content-box:nth-child(5) {
+    order: 3;
+  }
+  .content-box:nth-child(6) {
+    order: 2;
+  }
+  .content-box {
+    width: 46%;
+  }
+  .content-box .description-content {
+    display: block !important;
+  }
+  .content-box .view {
+    display: none !important;
+  }
+  .box-4 .box-4-content {
+    grid-template-columns: 80px 80px 80px;
+  }
+  .hobby-ic {
+    margin-left: 0;
+  }
+  /* certification */
+  #certification .certification {
+    padding-right: 0;
+    padding-left: 50px;
+  }
+  .certification-content .content-box-certification {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  /* project */
+  .project-box {
+    width: 175px;
+  }
+  .project-info .funix {
+    display: flex;
+    flex-direction: column;
+  }
+  .funix p {
+    margin-bottom: 0;
+  }
+  .project-info {
+    align-items: flex-start;
+  }
+  .project-box .project-box-content {
+    gap: 20px;
+  }
+}

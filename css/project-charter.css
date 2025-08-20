@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.project-charter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 3fr 2fr;
+  background-color: #f0f8ff;
+}
+.project-content {
+  padding: 20px;
+  border: 20px solid #0000ff;
+  padding-bottom: 64px;
+}
+.project-content h2 {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #c6d6d3;
+  color: #0401ff;
+}
+.content-details {
+  padding: 20px 20px;
+}
+.goals {
+  grid-row: 1 / 2;
+  grid-column: 1 / 3;
+  border-bottom: none;
+  border-right: none;
+}
+.scopes {
+  grid-row: 2 / 3;
+  grid-column: 1 / 3;
+  border-right: none;
+}
+.team {
+  grid-row: 1 / 2;
+  grid-column: 3 / 4;
+  border-bottom: none;
+  border-right: none;
+}
+.primary {
+  grid-row: 2 / 3;
+  grid-column: 3 / 4;
+  border-right: none;
+}
+.timeline {
+  grid-row: 1 / 3;
+  grid-column: 4 / 5;
+}
+.goals .content-details {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+.goals .content-details > div {
+  display: flex;
+  align-items: start;
+  gap: 50px;
+  border-bottom: 2px solid #e2edf0;
+  padding: 20px;
+}
+.goals i {
+  font-size: 28px;
+}
+
+/* scopes */
+.scopes .content-details {
+  display: flex;
+  gap: 50px;
+}
+.scopes-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.scopes h3 {
+  padding-bottom: 30px;
+  text-transform: uppercase;
+}
+
+/* Team */
+.team .content-details > div {
+  display: flex;
+  gap: 36px;
+  margin-bottom: 32px;
+  align-items: center;
+}
+.team p {
+  margin-top: 10px;
+}
+.team i {
+  font-size: 28px;
+}
+
+/* primary */
+.primary .content-details > div {
+  display: flex;
+  align-items: flex-start;
+  gap: 36px;
+}
+.primary i {
+  font-size: 28px;
+  padding-top: 12px;
+}
+
+/* time line */
+.timeline .content-details > div {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 32px;
+  align-items: center;
+}
+.timeline p {
+  margin-top: 10px;
+}
+.timeline .circle {
+  border: 2px solid #716e80;
+  border-radius: 50%;
+  font-size: 32px;
+  padding: 12px;
+  background-color: #9e88ff;
+  color: #ebe9ff;
+}
+.timeline .time-line-part-content {
+  padding-bottom: 10px;
+  border-bottom: 1px dotted #6ec5e9;
+}
